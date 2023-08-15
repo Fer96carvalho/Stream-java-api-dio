@@ -2,6 +2,7 @@ package funcionalInterface;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.function.BinaryOperator;
 
 public class BinaryOperatorExample {
@@ -17,5 +18,9 @@ public class BinaryOperatorExample {
 
         int resultado1 = numeros.stream()
                 .reduce(0, Integer::sum);
+
+//        Optional<String> optionalValue = Optional.ofNullable(null);
+//        String result = optionalValue.orElse("Default");
+//        System.out.println(result);
     }
 }
